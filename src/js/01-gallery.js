@@ -33,3 +33,16 @@ lightbox.close();
 listGallery.addEventListener('click', cb);
 
 console.log(galleryItems);
+
+
+
+// const titleBooks = JSON.parse(localStorage.getItem("titleBooks") || '[]')
+// const listEl = document.querySelector('ul')
+
+// function renderMarkup(titles) {
+//     const liesEl = titles.map(title => {
+//     return `<li>${title}</li>`
+//   }).join('')
+//   listEl.innerHTML = liesEl;
+// }
+// renderMarkup(titleBooks)

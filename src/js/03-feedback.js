@@ -12,7 +12,7 @@ const saveMessage = (evt) => {
     const dataForm = { email: input.value, message: textArea.value };
     localStorage.setItem(LOCALSTORAGE_KEY, JSON.stringify(dataForm));
 };
-form.addEventListener("input", LodashThrottle(saveMessage), 500);
+form.addEventListener("input", LodashThrottle(saveMessage, 500));
 
 function updateOutput() {
     if (storage) {

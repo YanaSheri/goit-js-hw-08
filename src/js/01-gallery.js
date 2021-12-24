@@ -25,7 +25,6 @@ const cb = (event) => {
     event.preventDefault();
     if (event.target.nodeName !== "IMG") return false;
         const sourceImg = event.target.dataset.source;
-        // console.log(sourceImg);
     };
 const lightbox = new SimpleLightbox('.gallery a', { captionsData: 'alt', animationSpeed: "250ms" });
 lightbox.close();
@@ -35,7 +34,7 @@ listGallery.addEventListener('click', cb);
 console.log(galleryItems);
 
 
-
+//---------------------из лекции----------------
 // const titleBooks = JSON.parse(localStorage.getItem("titleBooks") || '[]')
 // const listEl = document.querySelector('ul')
 
